@@ -1,0 +1,8 @@
+let pets = [
+  'asta',
+  'butterscotch',
+  'pudding',
+  'neptune',
+  'darwin',
+];
+console.log(pets[0]);

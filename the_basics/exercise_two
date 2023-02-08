@@ -1,0 +1,23 @@
+// setting number value
+let number = 4936;
+// setting ones = to number % 10, leaving 6
+let ones = number % 10;
+console.log(ones);
+
+// setting number equal to number - ones / 10, leaving 493
+number = (number - ones) / 10;
+
+// setting tens equal to number % 10, leaving 3
+let tens = number %  10;
+console.log(tens);
+
+// setting number = number - tens / 10, leaving 49
+number = (number - tens) / 10;
+
+// setting hundreds to number % 10, leaving 9
+let hundreds = number % 10;
+console.log(hundreds);
+
+// setting thousands to number - hundreds / 10, leaving 4
+let thousands = (number - hundreds) / 10;
+console.log(thousands);
